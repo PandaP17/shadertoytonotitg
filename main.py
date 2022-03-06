@@ -112,7 +112,7 @@ with open(file_path, "a+") as file_object:
         file_object.write("\n")
     # Append text at the end of file
         file_object.write(voidmain)
-        file_object.write("\n //This shader was converted with satori's shader converter, if there are any bugs, please contact me at satori#6585.")
+        file_object.write("\n //This shader was converted with satori's shader converter, if there are any bugs, please contact me at satori#6585. Also, you can submit issues at the github repo at: https://github.com/satoriscripts/shadertoytonotitg/tree/main")
 #####################################################################
 #####################################################################
 
@@ -144,4 +144,5 @@ print('Please credit the shadertoy you used!')
 print('YOU MAY HAVE TO TWEAK THE VERSION NUMBER HIGHER OR LOWER!')
 print('Be sure to put your shader through https://sm.heysora.net/glsl/ to check for silent errors.')
 print('PLEASE NOTE YOU WILL HAVE TO CONVERT ICHANNELS MANUALLY!')
+print('https://github.com/PandaP17/shadertoytonotitg/tree/main')
 input("Press any key to close...")
