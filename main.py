@@ -158,7 +158,7 @@ with open(file_path, 'w') as file:
 #####################################################################
 executionTime = (time.time() - startTime)
 print('Execution time in seconds: ' + str(executionTime))
-print('Successfully  converted in.')
+print('Successfully  converted.')
 print('Please credit the shadertoy you used!')
 print('YOU MAY HAVE TO TWEAK THE VERSION NUMBER HIGHER OR LOWER!')
 print('Be sure to put your shader through https://sm.heysora.net/glsl/ to check for silent errors.')
